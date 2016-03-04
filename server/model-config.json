@@ -13,11 +13,16 @@
       "./mixins"
     ]
   },
-  "Actor": {
-    "dataSource": "db"
-  },
   "CoffeeShop": {
     "dataSource": "mysqlDs",
-	"public": true
+    "public": true
+  },
+  "Review": {
+    "dataSource": "mongoDs",
+    "public": true
+  },
+  "Reviewer": {
+    "dataSource": "mongoDs",
+    "public": true
   }
 }
